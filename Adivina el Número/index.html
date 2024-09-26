@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Adivina el Número</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=ERwfDK7WFLk3&format=png&color=000000" type="image/png">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <h1>¡Juego de Adivinar un Número!</h1>
+        <div id="box1">
+            <h3>
+                Ingresa un número para ver si adivinas:
+            </h3>
+        </div>
+        <div class="container">
+            <form id="textbox" onsubmit="evaluarNumero(event)">
+                <input type="number" id="numero" placeholder="Ingresa un número" name="numero" min="1" max="100">
+                <button id="botonAdivinar" type="submit" title="Adivinar Número"></button>
+            </form>
+        </div>
+        <div class="container">
+            <form id="reiniciar" onsubmit="generarNumeroAleatorio(event)">
+                <button id="botonReiniciar" type="submit" title="Reiniciar Número Aleatorio"></button>
+            </form>
+        </div>
+    </body>
+</html>
