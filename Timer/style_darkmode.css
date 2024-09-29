@@ -1,0 +1,84 @@
+/*
+  Estilo de modo oscuro
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222020;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#divContador{
+    margin-top: 225px;
+}
+
+#contador{
+    font-size: 75;
+    color: #fff;
+}
+
+button{
+    height: 35px;
+    font-size: large;
+    font-weight: bold;
+    pading: 0;
+    background-color: #222020;
+    border: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:active {
+    background-color: #f6f9f6; 
+    transform: scale(2);
+}
+
+button:hover {
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3); 
+}
+
+#botones{
+    gap: 15px;
+}
+
+
+#start{
+    width: 50px;
+    background: url('icons/start.svg');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#stop{
+    width: 50px;
+    background: url('icons/stop.svg');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#restart{
+    width: 50px;
+    background: url('icons/restart.svg');
+    background-size: 23px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cambiarEstilo{
+    display: flex;
+    justify-content: right;
+}
+
+#botonCambiarEstilo{
+    width: 50px;
+    background: url('icons/darkmode.svg');
+    background-size: 25px;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}

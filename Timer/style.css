@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#divContador{
+    margin-top: 225px;
+}
+
+#contador{
+    font-size: 75;
+}
+
+button{
+    height: 35px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#botones{
+    gap: 15px;
+}
+
+#start{
+    color: #fff;
+    background-color: #1e9241;
+}
+
+#stop{
+    color: #fff;
+    background-color: #da2b2b;
+}
+
+#restart{
+    color: #fff;
+    background-color: #394ce1;
+}
+
+#cambiarEstilo{
+    display: flex;
+    justify-content: right;
+}
+
+#botonCambiarEstilo{
+    background-color: #e9aa45;
+}
